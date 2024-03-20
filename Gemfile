@@ -3,4 +3,7 @@
 source "https://rubygems.org"
 
 # gem "rails"
-gem "jekyll"
+# gem "jekyll"
+gem "github-pages", "~> 231"
+
+gem "webrick", "~> 1.8"
