@@ -1,29 +1,20 @@
-<footer class="container mt-5" data-bs-theme="light">
+<footer class="container mt-5">
     <div class="text-primary">
         <hr>
     </div>
-    <div class="container text-center">
-        <div class="row">
-            <div class="col text-start">
-                Learn more at: <a href="https://rockinghat.com/" target="_blank">Rocking Hat LLC</a>.
-            </div>
-            <div class="col">
-            </div>
-            <div class="col d-flex flex-row-reverse">
-                <span></span>
-                <ul class="list-group list-group-horizontal">
-                    <li class="list-group-item">Connect:</li>
-                    {% for item in site.data.social %}
-                    <li class="list-group-item">
-                        <a href="{{ item.link }}" title="{{ item.name | capitalize }}" target="_blank"><i class="bi bi-{{ item.name }}"></i></a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
+    <div class="row">
+        <div class="col text-start">
+            Learn more at: <a href="https://rockinghat.com/" target="_blank">Rocking Hat LLC</a>.
         </div>
-    </div>
-    <p>
-    </p>
-    <div>
+        <div class="col d-flex flex-row-reverse">
+            <ul class="list-group list-group-horizontal">
+                <li class="list-group-item">Connect:</li>
+                {% for item in site.data.social %}
+                <li class="list-group-item">
+                    <a href="{{ item.link }}" title="{{ item.name | capitalize }}" target="_blank"><i class="bi bi-{{ item.name }}"></i></a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
     </div>
 </footer>
