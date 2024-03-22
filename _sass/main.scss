@@ -1,36 +1,8 @@
 
-$light:      #d8cfc6;
-$dark:       #2c3646;
-$primary:    #b42e34;
-$secondary:  #86797a;
-$info:       #e1a219;
-$success:    #62ac0a;
-$warning:    #ffc274;
-$danger:     #f50468;
-
-$theme-colors: (
-  "primary":    $primary,
-  "secondary":  $secondary,
-  "success":    $success,
-  "info":       $info,
-  "warning":    $warning,
-  "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark
-);
-
-/*
-font-family: "sutro-black-initials", serif;
-font-weight: 400;
-font-style: normal;
-
-font-family: "anonymous-pro", monospace;
-font-weight: 700;
-font-style: normal;
-
-font-family: "Oswald", Helvetica, Arial, sans-serif!important;
- */
+@import "_colors.scss";
+@import "_fonts.scss";
+@import "_cover.scss";
 
 @import "/home/winds/gems/gems/bootstrap-5.3.2/assets/stylesheets/bootstrap/";
 @import "/home/winds/gems/gems/bootstrap-5.3.2/assets/stylesheets/bootstrap/_variables.scss";
-@import url("https://use.typekit.net/uol6kam.css");
+
