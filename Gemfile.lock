@@ -289,7 +289,7 @@ DEPENDENCIES
   bootstrap (~> 5.3)
   github-pages
   http_parser.rb (~> 0.6.0)
-  jekyll-feed (~> 0.12)
+  jekyll-feed
   jekyll-seo-tag
   jekyll-sitemap
   minima (~> 2.5)
