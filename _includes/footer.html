@@ -2,17 +2,43 @@
     <hr>
 </div>
 <div class="row">
-    <div class="col text-start">
-        Learn more at: <a href="https://rockinghat.com/" target="_blank">Rocking Hat LLC</a>.
-    </div>
-    <div class="col d-flex flex-row-reverse">
-        <ul class="list-group list-group-horizontal">
-            <li class="list-group-item">Connect:</li>
+    <div class="col-sm-6">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Connect:</a>
+            </li>
             {% for item in site.data.social %}
-            <li class="list-group-item">
-                <a href="{{ item.link }}" title="{{ item.name | capitalize }}" target="_blank"><i class="bi bi-{{ item.name }}"></i></a>
+            <li class="nav-item">
+                <a href="{{ item.link }}" 
+                   class="nav-link" 
+                   title="{{ item.name | capitalize }}" 
+                   target="_blank">
+                    <i class="bi bi-{{ item.name }}"></i>
+                </a>
             </li>
             {% endfor %}
+
         </ul>
     </div>
+    <div class="pt-2 col-sm-6">
+        <p class="ps-3 ps-lg-0">
+        Learn more at: <a href="https://rockinghat.com/" target="_blank">Rocking Hat LLC</a>.
+        </p>
+        <p class="ps-3 ps-lg-0">
+        Contact Info: <a href="https://linktr.ee/rockinghat" target="_blank">@rockinghat</a>
+        </p>
+    </div>
 </div>
+
+<!--
+    <ul class="list-group list-group-horizontal">
+    <li class="list-group-item">Connect:</li>
+    {% for item in site.data.social %}
+    <li class="list-group-item">
+    <a href="{{ item.link }}" title="{{ item.name | capitalize }}" target="_blank"><i class="bi bi-{{ item.name }}"></i></a>
+    </li>
+    {% endfor %}
+    </ul>
+
+
+-->
