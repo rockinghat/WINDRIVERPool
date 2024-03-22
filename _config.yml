@@ -1,9 +1,7 @@
 title: WIND RIVER Avalanche Validator
 email: info@rockinghat.com
-description: >- # this means to ignore newlines until "baseurl:"
-  AVAX holders are incentivized to stake their tokens to secure Avalanche, 
-  while receiving a reward in return. Delegate your AVAX to the WIND RIVER 
-  validator node, and earn AVAX rewards.
+description:
+  AVAX holders are incentivized to stake their tokens to secure Avalanche, while receiving a reward in return. Delegate your AVAX to the WIND RIVER validator node, and earn AVAX rewards.
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: "windriver.rockinghat.com"
 url: "https://windriver.rockinghat.com" # the base hostname & protocol for your site, e.g. http://example.com
