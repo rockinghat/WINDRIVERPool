@@ -23,3 +23,4 @@ JEKYLL_ENV=production bundle exec jekyll build
 ```
 > [!NOTE]
 > Roll Back to Commit `START` for use in new project.
+> Look for multiple `START` commits and use the latest.
