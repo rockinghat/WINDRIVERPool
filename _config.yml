@@ -16,3 +16,6 @@ plugins:
   - jekyll-seo-tag
 
 destination: docs/
+
+keep_files:
+  - CNAME
